@@ -1,0 +1,144 @@
+:root{
+    --primary-color: #234176;
+    --text-color:#ABB9C1;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#fff;
+    color: var(--text-color);
+    height: 100vh;
+    margin: 1.5rem auto;
+    border: 2px solid blue;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+header {
+    background-image: url(./images/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70%;
+}
+.top-bar {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+}
+.social-media {
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+}
+ul{
+    display: inline;
+}
+li {
+    color:var(--text-color);
+    display: inline;
+    list-style-type: none;
+    margin-right: 0.5rem;         
+}
+a {
+    text-decoration: none;
+}
+.icon {
+    width: 16px;
+    margin-right: 0.5rem;
+}
+.secrch-tour {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+     text-align:  center;
+}
+.secrch {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 3rem;
+}
+.select {
+    width: 5rem;
+}
+.choose-us {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin: 1.5rem;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    color:#fff;
+}
+.btn-search {
+    margin: 1rem;
+    padding: 5px 25px;
+}
+
+
+.reviews {
+    display:flex;
+    justify-content:space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.review {
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+}
+.subscription {
+    border: 5px solid yellowgreen;
+}
+
+/* SECONDRY FOOTER*/
+.secondry-footer {
+    color: white;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2rem;
+    background-color: #1D2130;
+
+    height: 300px;
+    /* border: 5px solid red; */
+}
+
+.city {
+    color:#36487A;
+
+}
+.info-image{
+    background-color: white;
+}
+.Copyright {
+    margin-top: 1rem;
+}
+
+/* FOOTER */
+footer{
+    border: 5px solid green;
+    background-color:black;
+    text-align: center;
+    padding: 20px;
+    height: 80px;
+}
